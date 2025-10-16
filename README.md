@@ -2,6 +2,9 @@
 
 A minimal Python/FastAPI project that exposes a `GET /me` endpoint returning profile information and a dynamic cat fact fetched from the Cat Facts API (`https://catfact.ninja/fact`).
 
+* Visit `https://web-production-686f3.up.railway.app/me` to Retrieve the live cat facts and profile.
+* Visit `https://web-production-686f3.up.railway.app/docs` to get the API documentation.
+
 ## Project structure
 
 ```txt
