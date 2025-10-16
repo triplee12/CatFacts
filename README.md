@@ -29,6 +29,7 @@ USER_NAME=Your name
 USER_STACK=Python/FastAPI
 CATFACT_URL=https://catfact.ninja/fact
 EXTERNAL_TIMEOUT=5.0
+ENV=local
 ```
 
 ## How to run locally
@@ -39,6 +40,11 @@ EXTERNAL_TIMEOUT=5.0
 4. Install dependencies:
 
 ```bash
+pip install fastapi==0.119.0 uvicorn[standard]==0.37.0 httpx==0.28.1 \
+python-dotenv==1.1.1 pytest==8.4.2 pytest-asyncio==1.2.0 asgi-lifespan==2.1.0
+
+# Or
+
 pip install -r requirements.txt
 ```
 
